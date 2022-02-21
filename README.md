@@ -39,8 +39,11 @@
 - Instalar o gitmoji
 - `npx gitmoji -i`
 
+Obs.: Neste Projeto o padrão de commit está sendo feito com o [commitlint](https://commitlint.js.org/) com [Commitizen](https://github.com/commitizen/cz-cli).
+
 ## Links
 
+[Vite](https://vitejs.dev/guide/#browser-support)  
 [ESLint](https://eslint.org/docs/user-guide/getting-started)  
 [Eslint-config-Prettier](https://github.com/prettier/eslint-config-prettier)  
 [Husky](https://github.com/typicode/husky)  
