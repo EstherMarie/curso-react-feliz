@@ -1,4 +1,4 @@
-# Curso React Feliz | CollabCode
+# Curso React Feliz | ChatCollab
 
 ## Configurando o projeto
 
@@ -7,6 +7,8 @@
 - `yarn create vite`
 
 ### Configurando o Eslint e Prettier
+
+> Melhora os padrões de escrita de código evitando inconsistências
 
 - `yarn create @eslint/config`
   - How would you like to use ESLint? · **style**
@@ -32,14 +34,34 @@
 
 ### Husky e lint-staged
 
+> Melhora a qualidade dos commits do projeto por meio de git hooks
+
 - `npx mrm@2 lint-staged`
 
 ### Padrão de commit - Gitmoji
 
+> Adiciona um padrão para as mensagens de commit
+
 - Instalar o gitmoji
 - `npx gitmoji -i`
 
-Obs.: Neste Projeto o padrão de commit está sendo feito com o [commitlint](https://commitlint.js.org/) com [Commitizen](https://github.com/commitizen/cz-cli).
+Obs.: Neste Projeto o padrão de commit está sendo feito com o [commitlint](https://commitlint.js.org/) e [Commitizen](https://github.com/commitizen/cz-cli) (só o commitizen já deixa o projeto bem feliz 😃).
+
+- `npm install -g commitizen`
+- `commitizen init cz-conventional-changelog --yarn --dev --exact`
+
+### Instalando o Storybook
+
+> Documenta os componentes da aplicação
+
+- `npx sb init`
+- `yarn storybook`
+
+### Styled-Components
+
+> CSS-in-JS
+
+- `yarn add styled-components`
 
 ## Links
 
@@ -47,5 +69,6 @@ Obs.: Neste Projeto o padrão de commit está sendo feito com o [commitlint](htt
 [ESLint](https://eslint.org/docs/user-guide/getting-started)  
 [Eslint-config-Prettier](https://github.com/prettier/eslint-config-prettier)  
 [Husky](https://github.com/typicode/husky)  
-[list-staged](https://github.com/okonet/lint-staged)  
-[gitmoji](https://github.com/carloscuesta/gitmoji)
+[lint-staged](https://github.com/okonet/lint-staged)  
+[gitmoji](https://github.com/carloscuesta/gitmoji)  
+[Storybook](https://storybook.js.org/docs/react/get-started/install)
