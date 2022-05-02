@@ -1,8 +1,9 @@
 # Storybook | Módulo 2
 
-[Repo: marcobrunodev/components-and-storybook](https://github.com/marcobrunodev/components-and-storybook)
+> Criando o componente Logo e documentando com o Storybook
 
-[storybook.js.org](https://storybook.js.org/)
+> - [Repo: marcobrunodev/components-and-storybook](https://github.com/marcobrunodev/components-and-storybook)
+> - [storybook.js.org](https://storybook.js.org/)
 
 ## Adicionar o Storybook
 
@@ -19,9 +20,10 @@ Para rodar o Storybook:
 
 ## Props do component
 
-- Até o momento, a única prop do componente Logo é o simple.
+- Até o momento, a única prop do componente Logo é o _simple_.
   Por meio dele definimos se o Logo será apresentado na forma simple ou normal.
 
 ## Variação do component
 
-- Realizada no arquivo stories/components/Logo.stories.tsx. Definimos as duas variantes do Logo: Default e Simple.
+- Realizada no arquivo stories/components/Logo.stories.tsx.
+  Definimos as duas variantes do Logo: Default e Simple.
