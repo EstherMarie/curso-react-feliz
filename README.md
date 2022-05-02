@@ -1,6 +1,8 @@
 # Curso React Feliz | ChatCollab
 
-## Configurando o projeto
+> [Repo: marcobrunodev/chatcollab](https://github.com/marcobrunodev/chatcollab)
+
+## Módulo 1 | Configurando o projeto
 
 ### Criando o projeto com Vite
 
@@ -50,14 +52,14 @@ Obs.: Neste Projeto o padrão de commit está sendo feito com o [commitlint](htt
 - `npm install -g commitizen`
 - `commitizen init cz-conventional-changelog --yarn --dev --exact`
 
-### Instalando o Storybook
+## [Módulo 2 | Documentando componentes com o Storybook](./storybook.md)
 
 > Documenta os componentes da aplicação
 
 - `npx sb init`
 - `yarn storybook`
 
-### Styled-Components
+## Módulo 3 | Styled-Components
 
 > CSS-in-JS
 
