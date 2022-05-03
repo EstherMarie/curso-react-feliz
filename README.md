@@ -59,7 +59,7 @@ Obs.: Neste Projeto o padrão de commit está sendo feito com o [commitlint](htt
 - `npx sb init`
 - `yarn storybook`
 
-## Módulo 3 | Styled-Components
+## Styled-Components
 
 > CSS-in-JS
 
@@ -73,4 +73,4 @@ Obs.: Neste Projeto o padrão de commit está sendo feito com o [commitlint](htt
 [Husky](https://github.com/typicode/husky)  
 [lint-staged](https://github.com/okonet/lint-staged)  
 [gitmoji](https://github.com/carloscuesta/gitmoji)  
-[Storybook](https://storybook.js.org/docs/react/get-started/install)
+[Storybook](https://storybook.js.org/)
