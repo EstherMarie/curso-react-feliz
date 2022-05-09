@@ -1,4 +1,4 @@
-# Storybook | Módulo 2
+# Módulo 2 | Documentando componentes com o Storybook
 
 > Criando o componente Logo e documentando com o Storybook
 

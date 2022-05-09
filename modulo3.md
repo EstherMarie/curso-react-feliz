@@ -1,13 +1,13 @@
-# Módulo 3
+# Módulo 3 | Fontes e background no Storybook, prop-types e refatoração da estrutura de pastas
 
-## Adiciona font no storybook
+## Adicionando fontes no storybook
 
-- google fonts
-- adiciona os links das fonts no `.storybook/preview-head.html`
-- adiciona os links das fonts no `index.html`
-- adiciona o font-family no `globalStyles/elements/base.css`
+- Selecione as fontes no Google Fonts
+- Adicione os links das fontes no `.storybook/preview-head.html`
+- Adicione os links das fontes no `index.html`
+- Adicione o font-family no `globalStyles/elements/base.css`
 
-## Muda padrão bg para dark
+## Mudando o padrão do background para dark
 
 [Backgrounds | Documentação do Storybook](https://storybook.js.org/docs/react/essentials/backgrounds)
 
@@ -62,7 +62,7 @@ Default.parameters: = {
 }
 ```
 
-## Adicionar prop-types
+## Adicionando prop-types
 
 - `yarn add prop-types`
 
@@ -79,6 +79,6 @@ Logo.propTypes = {
 }
 ```
 
-## Refatora arquitetura de pastas
+## Refatoração da arquitetura de pastas
 
-- Move os arquivos stories para dentro da pasta de cada component.
+- Mova os arquivos stories para dentro da pasta de cada component.

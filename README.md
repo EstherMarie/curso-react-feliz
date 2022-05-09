@@ -44,26 +44,28 @@
 
 > Adiciona um padrão para as mensagens de commit
 
-- Instalar o gitmoji
-- `npx gitmoji -i`
+- Instalar o gitmoji CLI: `npm i -g gitmoji-cli`
+- Instalar o gitmoji no projeto: `npx gitmoji -i`
 
 Obs.: Neste Projeto o padrão de commit está sendo feito com o [commitlint](https://commitlint.js.org/) e [Commitizen](https://github.com/commitizen/cz-cli) (só o commitizen já deixa o projeto bem feliz 😃).
 
 - `npm install -g commitizen`
 - `commitizen init cz-conventional-changelog --yarn --dev --exact`
 
-## [Módulo 2 | Documentando componentes com o Storybook](./storybook.md)
+## Styled-Components
+
+> CSS-in-JS
+
+- `yarn add styled-components`
+
+## [Módulo 2 | Documentando componentes com o Storybook](./modulo2-storybook.md)
 
 > Documenta os componentes da aplicação
 
 - `npx sb init`
 - `yarn storybook`
 
-## Styled-Components
-
-> CSS-in-JS
-
-- `yarn add styled-components`
+## [Módulo 3 | Fontes e background no Storybook, prop-types e refatoração da estrutura de pastas](./modulo3.md)
 
 ## Links
 
