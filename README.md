@@ -67,6 +67,10 @@ Obs.: Neste Projeto o padrão de commit está sendo feito com o [commitlint](htt
 
 ## [Módulo 3 | Fontes e background no Storybook, prop-types e refatoração da estrutura de pastas](./modulo3.md)
 
+## [Módulo 4 | Resolvendo erros do ESLint, criando componentes Title e Description](./modulo4.md)
+
+---
+
 ## Links
 
 [Vite](https://vitejs.dev/guide/#browser-support)  
